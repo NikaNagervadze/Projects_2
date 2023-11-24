@@ -1,0 +1,101 @@
+@font-face {
+    src: url(../fonts/atkinson-hyperlegible-bold-102-webfont.woff2);
+    font-family: atk-bold;
+}
+
+@font-face {
+    src: url(../fonts/atkinson-hyperlegible-regular-102-webfont\ \(1\).woff2);
+    font-family: atk-regular;
+}
+body{
+    background-color:black;
+    display: flex;
+    margin: 0;
+}
+.container{
+    width: 100%;
+    background: #f3eee4;
+    border: 1px solid #f3eee4;
+
+}
+h1{
+    font-family: atk-regular;
+    padding-left: 40px;
+}
+h2{
+    color:#333d51;
+    font-family: atk-bold;
+}
+.date {
+    color: #bd2152;
+    padding-top: 6px;
+    font-family: atk-bold;
+}
+.text{
+    color: #1c2334;
+    font-family: atk-regular;
+    font-size: 16px;
+    padding-top: 10px;
+
+}
+.img{
+    height: 100px;
+    width: 150px;
+    margin-left: 555px;
+    position: absolute;
+    right: 30px;
+    top: 0;
+}
+.footer{
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background: #e5bf55;
+    border: 1px solid #f3eee4;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.footer2{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    background-color: #F6E5BD;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+.footer2 div{
+    gap: 20px;
+    display: flex;
+}
+.footer2 a{
+    font-family:atk-bold;
+    color: black;
+    text-decoration: none;
+}
+
+.textforandy{
+    margin-top: 2px;
+}
+.btn1{
+    margin-right: 10px;
+    padding: 6px 23px;
+    background-color: #1c2334;
+    border: 2px solid #f163defe;
+    border-radius: 16px;  
+    margin-bottom: 20px;
+    color: white;
+}
+.btn2{
+    padding: 8px 20px;
+    background-color:  #e5bf55;
+    border: 2px solid;
+    border-radius: 16px;
+}
+.comment{
+    padding-left: 40px;
+    position: relative;
+}

@@ -1,0 +1,85 @@
+
+@font-face {
+    font-family:FiraGO-Regular;
+    src: url(../fonts/FiraGO-Regular.ttf);
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 52px;
+}
+.container{
+    width: 718px;
+    background: #FFFFFF;
+    border: 1px solid #F2F2F2;
+    border-radius: 10px;
+    padding:40px 51px 24px 47px ;
+
+}
+input{
+    width: 100%;
+    height: 46px;
+    border: 1px solid #E5E5E5;
+    border-radius: 10px;
+    padding: 18px;
+
+}
+#Country{
+    font-family: 'FiraGO-Regular';
+    width: 100%;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    border-radius: 10px;
+    padding-left: 18px;
+}
+#about{
+    font-family: 'FiraGO-Regular';
+    width: 100%;
+    height: 148px;
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    border-radius: 10px;
+    padding: 18px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #E7E7E7;
+
+}
+h4{
+    font-family: 'FiraGO-Regular';
+    margin-bottom: 7px;
+}
+h1{
+    font-family: 'FiraGO-Regular';
+    margin: 0;
+}
+.btn{
+    text-align: end;
+}
+.btn>button{
+    background: #FFDD04;
+    border: 1px solid transparent ;
+    border-radius: 10px;
+    width: 205px;
+    height: 47px;
+    margin-top: 13px;
+
+    font-family: 'FiraGO-Regular';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
+
+}

@@ -1,0 +1,129 @@
+@font-face {
+    font-family: geobold;
+    src: url(../Fonts/Geo\ Bold.ttf);
+}
+
+@font-face {
+    font-family: bpg;
+    src: url(../Fonts/bpg_nino_mtavruli_bold.ttf);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.logo>a{
+    display: flex;
+    height: 130px;
+    width: 130px;
+}       
+
+.language{
+    border-radius: 20px;
+    border: 1px solid #fff;
+    padding: 8px;
+    text-decoration: none;
+
+    font-family: bpg;
+    font-size: 20px;
+    color: #fff;
+
+    margin: 0;
+}
+
+.modal-header{
+    display: flex;
+    justify-content: center;
+}
+
+.modal-header>h1{
+
+    font-family: bpg;
+    font-size: 40px;
+    color: #819E8B;
+
+    margin: 0;
+}
+
+.menuitems{
+    transition: all 0.3s;
+}
+
+.menuitems:hover{
+    transform: scale(0.95);
+}
+
+.menuimg>img{
+    border-radius: 10px;
+    filter: brightness(40%);
+    box-shadow: rgb(0, 0, 0) 0px 0px 15px -5px;
+}
+
+.itemdiscr>p{
+    font-family: bpg;
+    font-size: 16px;
+    color: #fff;
+
+    margin: 0;
+}
+
+.price>p{
+    font-family: bpg;
+    font-size: 18px;
+    color: #fff;
+
+    margin: 0;
+}
+
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
+}
+
+.text>h3{   
+    font-family: bpg;
+    color: #E4EAE5;
+    font-size: 1.3rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img>img{
+    border-radius: 20px 20px 0px 0px; 
+    width: 100%;
+}
+
+.iteminfo{
+    background: #819E8B;
+    border-radius: 0px 0px 20px 20px;
+    padding: 20px;  
+}
+
+.number>a{
+    font-family: bpg;
+    color: #E4EAE5;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.address>a{
+    font-family: bpg;
+    color: #E4EAE5;
+    font-size: 1rem;
+    text-decoration: none;    
+}
+
+.mail>a{
+    font-family: bpg;
+    color: #E4EAE5;
+    font-size: 1.2rem;
+    text-decoration: none;    
+}

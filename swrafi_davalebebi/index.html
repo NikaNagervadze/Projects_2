@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirmation Dialog Example</title>
+</head>
+<body>
+
+<button id="showDialogButton">Show Confirmation Dialog</button>
+
+<script>
+document.getElementById('showDialogButton').addEventListener('click', function() {
+    var userConfirmation = window.confirm("ეთანხმებით ამ ოპერაციას?");
+
+    if (userConfirmation) {
+        alert("მომხმარებელმა დააკლიკა ok-ს, მონაცემი ჭეშმარიტია");
+    } else {
+        alert("მომხმარებელმა დაკლიკა გაუქმებას, მონნეცემი უარყოფითა");
+    }
+});
+</script>
+</body>
+</html>
